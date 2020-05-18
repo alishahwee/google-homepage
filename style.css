@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  font-family: arial, sans-serf;
+  color: #222;
+}
+
+#navbar {
+  font-size: 13px;
+  position: relative;
+  top: 16px;
+}
+
+#navbar div {
+  display: inline;
+}
+
+#navbar a {
+  display: inline-block;
+  padding-left: 15px;
+  color: #000;
+  opacity: 0.75;
+}
+
+#gmim {
+  float: right;
+  padding-right: 15px;
+}
+
+#main {
+  margin: 0 auto;
+  min-width: 1139px;
+}
+
+#logo-container {
+  margin-top: 89px;
+  height: 233px;
+  text-align: center;
+}
+
+#logo {
+  padding-top: 109px;
+  height: 92px;
+  width: 272px;
+}
