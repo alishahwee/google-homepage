@@ -2,6 +2,10 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
+  position: absolute;
+  top: 0;
+  min-width: 1139px;
+  min-height: 100%;
   display: block;
   font-family: arial, sans-serf;
   color: #222;
@@ -44,4 +48,73 @@ body {
   padding-top: 109px;
   height: 92px;
   width: 272px;
+}
+
+#search-container {
+  position: relative;
+  width: 584px;
+  margin: 0 auto;
+  padding-top: 6px;
+}
+
+#search-bar {
+  display: flex;
+  width: 582px;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  height: 44px;
+  margin: 0 auto;
+}
+
+.input-container {
+  flex: 1;
+  display: flex;
+  padding: 5px 8px 0 16px;
+  padding-left: 14px;
+}
+
+#search-icon-container {
+  display: flex;
+  align-items: center;
+  padding-right: 13px;
+  margin-top: -5px;
+}
+
+.fa-search {
+  color: #9aa0a6;
+}
+
+#input-flex {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex: 100%;
+  font-size: 16px;
+  line-height: 34px;
+  margin-top: -5px;
+}
+
+#mic-flex {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+  margin-top: -5px;
+  flex-direction: row;
+}
+
+#google-mic-logo {
+  height: 24px;
+  width: 24px;
+  vertical-align: middle;
 }
